@@ -1,8 +1,8 @@
 export default function fetchCountries(name) {
   return fetch(`https://restcountries.eu/rest/v2/name/${name}`)
-    .then(response => {
+    .then(r => {
       if (name) {
-        return response.json();
+        return r.json();
       } else {
         return;
       }

@@ -8,29 +8,27 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 40%;
   margin: 0 auto;
 }
 
 .header {
   margin: 0;
-  background: teal;
   padding: 15px 0;
+  background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+}
+body {
+  background: linear-gradient(90deg, #b9deed, #efefef);
 }
 
-.search {
-  max-width: 500px;
-  margin: 0 auto;
-}
 
 .search__input {
-  width: 100%;
+  outline: none;
   display: inline-block;
-  background: none;
-  border: 1px solid #fff;
+  background: #cce5ec;
+  border-radius: 20px;
   font-size: 20px;
   padding: 10px 15px;
-  color: #fff;
 }
 
 .item {
